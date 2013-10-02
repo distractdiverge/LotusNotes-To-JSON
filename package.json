@@ -1,12 +1,12 @@
 {
   "name": "LotusNotes_to_JSON",
   "version": "0.0.1",
-  "description": "A Phantom JS Script to scrape LotusNotes Webmail to JSON",
+  "description": "A NodeJS Script to scrape LotusNotes Webmail to JSON",
   "main": "main.js",
   "scripts": {
     "test": "test.js"
   },
-  "repository": "",
+  "repository": "git@github.com:alexlapinski/cloaked-dubstep.git",
   "author": "Alex Lapinski",
-  "license": "BSD"
+  "license": "Public Domain"
 }
