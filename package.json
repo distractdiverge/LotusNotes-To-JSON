@@ -8,5 +8,8 @@
   },
   "repository": "git@github.com:alexlapinski/cloaked-dubstep.git",
   "author": "Alex Lapinski",
-  "license": "Public Domain"
+  "license": "Public Domain",
+  "dependencies": {
+    "zombie": "~2.0.0-alpha23"
+  }
 }
