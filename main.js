@@ -4,9 +4,11 @@ var assert = require("assert");
 browser = new Browser();
 browser.visit("https://webmail.publicisgroupe.net", function() {
 
+// TODO: Prompt at terminal for user's input of username and password
+
 	browser.
-		fill("username", "alapinsk").
-		fill("password", "Model2.kill2").
+		fill("username", "").
+		fill("password", "").
 		pressButton(".ligneBouton .ligneBoutonDroite input", function(){
 
 			assert.ok(browser.success);
